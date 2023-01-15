@@ -44,7 +44,7 @@ class Player():
         self.chat_id = None
 
 
-
+## Copy the path of your cvs file here after downloading it
 myfile = 'C:/Users/dotco/OneDrive/Documents/Python_projects/python-telegram-bot-master/am.csv'
 EXPECT_BUTTON_CLICK = 0
 
