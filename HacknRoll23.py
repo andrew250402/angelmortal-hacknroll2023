@@ -57,6 +57,7 @@ class Player():
 # objthree.mortal = objtwo
 # objthree.angel = obj
 
+##Copy the path of your csv file here
 myfile = 'C:/Users/dotco/OneDrive/Documents/Python_projects/python-telegram-bot-master/am.csv'
 #players = {'Iannnnmn': obj, "ugchong": objtwo, "andrew250402": objthree}
 EXPECT_BUTTON_CLICK = 0
