@@ -11,3 +11,5 @@ player, mortal, angel
 user1, user2, user3
 
 this row implies that user 1 is a mortal of user 2 and is also an angel of user 3
+
+The csv and python files provided are specific to 3 players (our team members)
