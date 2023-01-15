@@ -160,7 +160,6 @@ if __name__ == "__main__":
     application = ApplicationBuilder().token('5970865865:AAGQcH5a6XuxnTBmW4FAuGqOn6i1s-SsYeE').build()
     ##handlers
     start_handler = CommandHandler('start', start)
-    caps_handler = CommandHandler('caps', caps)
     forward_handler = CommandHandler('forward', forward)
     sendMortal_handler = CommandHandler('sendMortal', sendMortal)
     sendAngel_handler = CommandHandler('sendAngel', sendAngel)
@@ -182,7 +181,6 @@ if __name__ == "__main__":
 
     ##add handlers
     application.add_handler(start_handler)
-    application.add_handler(caps_handler)
     application.add_handler(forward_handler)
     application.add_handler(sendMortal_handler)
     application.add_handler(sendAngel_handler)
